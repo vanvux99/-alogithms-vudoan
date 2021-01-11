@@ -1,0 +1,13 @@
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.exe
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.deps.json
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.runtimeconfig.json
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.runtimeconfig.dev.json
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.dll
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\bin\Debug\netcoreapp3.1\ConsoleAppTestExample.pdb
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.csprojAssemblyReference.cache
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.AssemblyInfoInputs.cache
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.AssemblyInfo.cs
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.csproj.CoreCompileInputs.cache
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.dll
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.pdb
+D:\Project_C#\DIGI DINOS\Ex\ConsoleAppTestExample\ConsoleAppTestExample\obj\Debug\netcoreapp3.1\ConsoleAppTestExample.genruntimeconfig.cache
