@@ -49,7 +49,6 @@ namespace ConsoleAppTestExample
             money = (CalMonthRecursive(money, rate) + (CalMonthRecursive(money, rate) * 5 / 100));
             month++;
             return month;
-
         }
     }
 }

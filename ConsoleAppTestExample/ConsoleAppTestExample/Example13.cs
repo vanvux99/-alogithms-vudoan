@@ -75,7 +75,7 @@ namespace ConsoleAppTestExample
                 min = i;
                 for (int index = i + 1; index < setData.Count; index++)
                 {
-                    if (string.Compare(setData[index].Name, setData[min].Name) > 0) // không so sánh được các ggias trị tên
+                    if (CompareString(setData[index].Name, setData[min].Name) == ?) // không so sánh được các ggias trị tên
                     {
                         min = index;
                     }
@@ -84,6 +84,37 @@ namespace ConsoleAppTestExample
             }
 
             return listProduct;
+        }
+
+        static string CompareString(string stringValue1, string stringValue2) 
+            // lấy được chữ cái đầu tiên, sau đó chuyển sang bảng asi II để so sanh 
+            //trong trường hợp chứ đầu giống nhau thì phải xét tới ký tiếp theo. tương tự cho tới khi hết độ dài chuỗi
+        {
+            string result = "";
+
+            string value1 = stringValue1.Substring(0, stringValue1.Length);/*.SubString(0, stringValue1.Length);*/
+            string value2 = stringValue2.Substring(0, stringValue2.Length);
+
+
+            if (CompareCharToByte(value1) == CompareCharToByte(value2)) 
+            {
+
+            }
+
+            return result;
+        }
+
+        static byte CompareCharToByte(string str)
+        {
+            char ch = char.Parse(str);
+            byte keycode = (byte) (ch);
+
+            if (keycode > 122 && keycode < 97)
+            {
+                return 0;
+            }
+
+            return keycode;
         }
     }
 }
