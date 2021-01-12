@@ -11,7 +11,8 @@ namespace ConsoleAppTestExample
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            AddProduct add = new AddProduct();
+            Product product = new Product();
+            Category category = new Category();
             string name = "";
             int id = 0;
             int price = 0;
@@ -33,6 +34,50 @@ namespace ConsoleAppTestExample
 
             /*Console.WriteLine("Độ dài của tên từ cao đén thấp");
             FunctionClass.Test(add.AddProducts(), name, id, price, add.AddProductsByArray(), 12);*/
+
+            //Example13.SortByCategoryName(product.AddProductsByArray(), category.AddCategorysByArray());
+            //Example13.Test(product.AddProductsByArray(), category.AddCategorysByArray());
+
+
+            /*            #region  Example 14
+                        Console.WriteLine("Nhập ID: ");
+                        id = int.Parse(Console.ReadLine());
+                        Example14.TestExample14(product.AddProductsByArray(), category.AddCategorysByArray(), id);
+                        #endregion*/
+
+
+            /*            #region Example 15 
+                        Console.WriteLine("Price nhỏ nhất: ");
+                        Example15.TestExample(product.AddProductsByArray());
+                        #endregion*/
+
+            #region Example 16 
+
+            /*Console.WriteLine("Price lớn nhất: ");
+            Example16.TestExample(product.AddProductsByArray());*/
+
+            #endregion
+
+            #region Example 21
+
+            /*Console.Write("Salary: ");
+            float salary = float.Parse(Console.ReadLine());
+            Console.Write("Year: ");
+            float year = float.Parse(Console.ReadLine());*/
+
+            //Example21.TestExample(100, 3);
+
+            #endregion
+
+            #region Example 22
+
+            /*Console.Write("Money: ");
+            float money = float.Parse(Console.ReadLine());
+            Console.Write("Rate: ");
+            float rate = float.Parse(Console.ReadLine());*/
+            Example22.CalMonthRecursive(1000, 5);
+            
+            #endregion
 
             Console.ReadKey();
         }
