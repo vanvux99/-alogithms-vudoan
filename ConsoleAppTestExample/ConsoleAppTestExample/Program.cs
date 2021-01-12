@@ -35,8 +35,13 @@ namespace ConsoleAppTestExample
             /*Console.WriteLine("Độ dài của tên từ cao đén thấp");
             FunctionClass.Test(add.AddProducts(), name, id, price, add.AddProductsByArray(), 12);*/
 
+
+            #region Example 13
+
             //Example13.SortByCategoryName(product.AddProductsByArray(), category.AddCategorysByArray());
-            //Example13.Test(product.AddProductsByArray(), category.AddCategorysByArray());
+            Example13.Test(product.AddProductsByArray(), category.AddCategorysByArray());
+
+            #endregion
 
 
             /*            #region  Example 14
@@ -75,8 +80,8 @@ namespace ConsoleAppTestExample
             float money = float.Parse(Console.ReadLine());
             Console.Write("Rate: ");
             float rate = float.Parse(Console.ReadLine());*/
-            Example22.CalMonthRecursive(1000, 5);
-            
+            //Example22.CalMonthRecursive(1000, 5);
+
             #endregion
 
             Console.ReadKey();
